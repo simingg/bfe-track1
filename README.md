@@ -20,6 +20,7 @@ localhost:8000/api/contacts/
 ###### To run the React application,
 In the cloned folder directory, run
 ```
+cd frontend
 npm run start
 ```
 
