@@ -1,14 +1,27 @@
 # bfe-track1
 Simple page to view,add and delete contacts
-To view the page,
 
-[x] $ git clone https://github.com/simingg/bfe-track1
-in the folder directory, on your commant prompt, run
-[x] $ cd bfe-track1-react
-[x] $ pipenv shell
-[x] $ pipenv install django
-[x] cd backend
-[x] python manage.py runserver
-
+###### To run the backend server, 
+run the given code in your machine's command prompt
+```
+git clone https://github.com/simingg/bfe-track1
+```
+In the cloned folder directory, run
+```
+cd bfe-track1-react
+pipenv shell
+pipenv install django
+cd backend
+python manage.py runserver
+```
 The django backend server is now running on 
 localhost:8000/api/contacts/
+
+###### To run the React application,
+In the cloned folder directory, run
+```
+npm run start
+```
+
+The contacts page should pop up on the site.
+
